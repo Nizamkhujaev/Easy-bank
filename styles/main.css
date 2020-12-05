@@ -111,7 +111,7 @@ header {
   height: 901px;
   position: absolute;
   top: 0;
-  right: 0px;
+  right: -150px;
 }
 
 .hero_section_title {
@@ -435,7 +435,7 @@ footer {
     display: none;
   }
 
-  header{
+  header {
     box-sizing: border-box;
   }
 
@@ -535,6 +535,8 @@ footer {
     position: static;
     background-size: 800px;
     box-sizing: border-box;
+    background-size: contain;
+    /* background-image: url(../images/hero-phones-mobile.png); */
   }
 
   .footer_left {
@@ -547,9 +549,10 @@ footer {
     margin-bottom: 34px;
   }
 
-  .section_hero{
-    background-size: contain;
-  }
+  /* .hero_section_right img {
+    display: none;
+  } */
+
 
   .footer_social img {
     margin-bottom: 32px;
@@ -578,14 +581,14 @@ footer {
     text-align: center;
   }
 
-  header{
+  header {
     position: relative;
     z-index: 3;
   }
 
-  .hero_section_right img{
-    width: 89%;
-    height: 600px;
+  .hero_section_right img {
+    width: 543px;
+    height: 677px;
     margin-top: -40px;
   }
 
