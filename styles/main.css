@@ -435,6 +435,10 @@ footer {
     display: none;
   }
 
+  header{
+    box-sizing: border-box;
+  }
+
   .burger {
     display: inline-block;
   }
@@ -443,6 +447,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 88px;
+    box-sizing: border-box;
   }
 
   .section_2_title {
@@ -529,6 +534,7 @@ footer {
     background-position: center top;
     position: static;
     background-size: 800px;
+    box-sizing: border-box;
   }
 
   .footer_left {
@@ -539,6 +545,10 @@ footer {
 
   .footer_left_top img {
     margin-bottom: 34px;
+  }
+
+  .section_hero{
+    background-size: contain;
   }
 
   .footer_social img {
@@ -566,6 +576,17 @@ footer {
 
   .footer_info {
     text-align: center;
+  }
+
+  header{
+    position: relative;
+    z-index: 3;
+  }
+
+  .hero_section_right img{
+    width: 89%;
+    height: 600px;
+    margin-top: -40px;
   }
 
 }
