@@ -533,10 +533,8 @@ footer {
   .section_hero {
     background-position: center top;
     position: static;
-    background-size: 800px;
+    background-size: 500px;
     box-sizing: border-box;
-    background-size: contain;
-    /* background-image: url(../images/hero-phones-mobile.png); */
   }
 
   .footer_left {
@@ -548,11 +546,6 @@ footer {
   .footer_left_top img {
     margin-bottom: 34px;
   }
-
-  /* .hero_section_right img {
-    display: none;
-  } */
-
 
   .footer_social img {
     margin-bottom: 32px;
@@ -587,8 +580,8 @@ footer {
   }
 
   .hero_section_right img {
-    width: 543px;
-    height: 677px;
+    width: 467px;
+    height: 650px;
     margin-top: -40px;
   }
 
