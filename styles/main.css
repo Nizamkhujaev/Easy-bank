@@ -533,7 +533,7 @@ footer {
   .section_hero {
     background-position: center top;
     position: static;
-    background-size: 500px;
+    background-size: contain;
     box-sizing: border-box;
   }
 
