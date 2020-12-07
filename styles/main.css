@@ -111,7 +111,7 @@ header {
   height: 901px;
   position: absolute;
   top: 0;
-  right: -150px;
+  right: 0;
 }
 
 .hero_section_title {
@@ -415,10 +415,16 @@ footer {
   transform: translateY(-10px);
 }
 
+.hero-img--2 {
+  display: none;
+}
+
 @media only screen and (max-width: 576px) {
 
   .container {
     max-width: 576px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
@@ -441,6 +447,23 @@ footer {
 
   .burger {
     display: inline-block;
+  }
+
+  .section_hero {
+    background-image: none;
+  }
+
+  .hero_section_right .hero-img {
+    display: none;
+  }
+
+  .hero_section_right {
+    width: 100%;
+  }
+
+  .hero_section_right .hero-img--2 {
+    display: block;
+    width: 100%;
   }
 
   .hero_section_wrapper {
